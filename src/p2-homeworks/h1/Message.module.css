@@ -1,3 +1,28 @@
-.message {
+.appWrapper {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(22, 22, 22, 0.76);
+  border-radius: 15px;
+  margin-left: 75px;
+  position: relative;
+}
 
+.appWrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  transform: translate(-120%, 95%);
+  border: 2px solid black;
+}
+
+p{
+  color: white;
+  margin-left: 10px;
+}
+
+.time{
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
 }
