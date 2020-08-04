@@ -23,9 +23,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
+
 /debug.log
 =======
 .idea
 debug.log
->>>>>>> 9317b43f977d42f89611d2c77368e3d2677e213c
+

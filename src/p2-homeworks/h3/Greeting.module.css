@@ -1,7 +1,25 @@
 .someClass {
-
+  text-align: center;
+  margin: auto;
 }
 
 .error {
-    border: 1px solid red;
+  border: 1px solid red;
+}
+
+.someClass button {
+  background-color: #9090ff;
+
+  width: 50px;
+  font-size: 15px;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+
+.someClass input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
 }

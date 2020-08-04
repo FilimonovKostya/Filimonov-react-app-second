@@ -13,8 +13,6 @@ export type AffairType = {
 };
 
 
-
-
 // constants
 const defaultAffairs: Array<AffairType> = [
     {_id: 1, name: "React", priority: "high"},
@@ -28,21 +26,18 @@ const defaultAffairs: Array<AffairType> = [
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => {
     if (filter === "all") {
         return affairs;
-    }
-    else if ( filter === 'high') {
+    } else if (filter === 'high') {
         return affairs.filter(h => h.priority === 'high')
-    }
-    else if ( filter === 'low') {
+    } else if (filter === 'low') {
         return affairs.filter(h => h.priority === 'low');
-    }
-    else if (filter ==='middle') {
+    } else if (filter === 'middle') {
         return affairs.filter(h => h.priority === 'middle')
     } else {
-        return  affairs
+        return affairs
     }
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => {
-    affairs = affairs.filter(f => f._id !== _id )
+    affairs = affairs.filter(f => f._id !== _id)
     return affairs;
 }
 
@@ -50,26 +45,22 @@ function HW2() {
     const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs);
     const [filter, setFilter] = useState<FilterType>("all");
     const filteredAffairs = filterAffairs(affairs, filter);
-     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
-
+    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
 
 
     return (
         <div>
-            <hr/>
-            homeworks 2
 
-            {/*should work (должно работать)*/}
+            <h2>HomeWork 2</h2>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
             />
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
-            <hr/>
+
         </div>
     );
 }

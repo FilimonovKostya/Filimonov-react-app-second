@@ -1,3 +1,45 @@
 .someClass {
+  width: 300px;
+  margin: auto;
+  width: 300px;
+  margin: auto;
+  border: 2px solid #8d74fd;
+  border-radius: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+.someClass:hover{
+  background-color: #b899e5;
+  transition: all 1.4s ease-in-out;
+  cursor: pointer;
+}
+.buttons{
+  margin: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
 
+.button {
+font-size: 20px;
+  padding: 10px;
+  width: 80px;
+}
+
+button{
+  background-color: #9090ff;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+}
+
+button:hover{
+   padding: 8px;
+  background-color: #9090ff;
+  color: white;
+  transition: all 0.3s ease-in;
 }
