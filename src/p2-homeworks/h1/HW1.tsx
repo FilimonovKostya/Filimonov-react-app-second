@@ -1,7 +1,7 @@
 import React from "react";
 import Message from "./Message";
 
-const messageData = {
+ const messageData = {
     avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
     name: "Some Name",
     message: "some text",
@@ -9,6 +9,7 @@ const messageData = {
 };
 
 export type MessageType = {
+<<<<<<< HEAD
     avatar: string
     name:string
     message:string
@@ -16,10 +17,20 @@ export type MessageType = {
 }
 
 function HW1() {
+=======
+     avatar: string
+     name:string
+     message:string
+     time:string
+ }
+
+
+ function HW1() {
+>>>>>>> 9317b43f977d42f89611d2c77368e3d2677e213c
     return (
         <div>
             <hr/>
-            homeworks 1
+            home works 1
 
             should work (должно работать)
 
