@@ -1,7 +1,6 @@
 import React, {ChangeEvent, useState} from "react";
 import Greeting from "./Greeting";
 import {UserType} from "./HW3";
-import s from "./Greeting.module.css";
 
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
@@ -22,17 +21,17 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         setName(e.currentTarget.value); // need to fix
     };
     const addUser = () => {
-        if(name === ''){
+        if (name.trim()) {
             addUserCallback(name)
-            alert(`Hello  ${name}!`); // need to fix
+            alert(`Hello  ${name.trim()}!`); // need to fix
             setName('')
+            setError('')
         } else {
-            alert(`Hello ${name}!`)
-            setName('')
+            setError(' Вы ввели пустое имя ')
         }
     };
 
-    const totalUsers:number = users.length; // need to fix
+    const totalUsers: number = users.length; // need to fix
 
     return (
         <Greeting

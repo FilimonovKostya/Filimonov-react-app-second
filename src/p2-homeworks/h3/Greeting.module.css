@@ -3,9 +3,8 @@
   margin: auto;
 }
 
-.error {
-  border: 1px solid red;
-}
+
+
 
 .someClass button {
   background-color: #9090ff;
@@ -17,9 +16,15 @@
 }
 
 
-.someClass input {
+.input{
   padding: 5px;
   outline: none;
-  border: none;
+  border: 1px solid gainsboro;
   border-radius: 15px;
+}
+
+
+.input.error{
+  border: 1px solid red;
+  outline: none;
 }
