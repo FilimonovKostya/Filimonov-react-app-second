@@ -1,7 +1,10 @@
-.default {
-
-}
 
 .red {
     background: red;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.red:hover{
+    background-color: red;
 }
