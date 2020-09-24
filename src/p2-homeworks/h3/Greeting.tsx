@@ -1,5 +1,6 @@
-import React, {ChangeEvent} from "react";
+import React, {ChangeEvent, useState} from "react";
 import s from "./Greeting.module.css";
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
 
 type GreetingPropsType = {
     name: string // need to fix any
@@ -15,16 +16,28 @@ const Greeting: React.FC<GreetingPropsType> = (
 ) => {
     let inputClass = error ? `${s.input} ${s.error}` : s.input;
 
+    //Допилю
+    // let [input,setInput] = useState('')
+    // function changeInput(e:ChangeEvent<HTMLInputElement>){
+    //     let text = e.currentTarget.value
+    //     setInput(text)
+    // }
+
     return (
         <div className={s.someClass}>
-            <input  value={name}
-                    onChange={setNameCallback}
-                    className={inputClass}
-                    onKeyPress={(e) => {if(e.key === 'Enter') { addUser() }}}
+            <input value={name}
+                   onChange={setNameCallback}
+                   className={inputClass}
+                   onKeyPress={(e) => {
+                       if (e.key === 'Enter') {
+                           addUser()
+                       }
+                   }}
             />
             <span>{error}</span>
-            <button className={s.someClass + '' + s.button}  onClick={addUser}>add</button>
+            <button className={s.someClass + '' + s.button} onClick={addUser}>add</button>
             <span>{totalUsers}</span>
+                {/*<SuperInputText value={input} onChange={changeInput}/>*/}
         </div>
     );
 }

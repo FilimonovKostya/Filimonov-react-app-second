@@ -1,7 +1,14 @@
 .checkbox {
+    position: relative;
+}
 
+.checkbox input{
+    background-color: red;
 }
 
 .spanClassName {
 
 }
+
+
+/*==========================*/

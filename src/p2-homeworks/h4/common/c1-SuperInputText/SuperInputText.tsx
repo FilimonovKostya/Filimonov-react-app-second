@@ -15,7 +15,7 @@ type SuperInputTextPropsType = DefaultInputPropsType & { // и + ещё проп
     value: string
 };
 
-const SuperInputText: React.FC<SuperInputTextPropsType> = (
+export const SuperInputText: React.FC<SuperInputTextPropsType> = (
     {
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
         onChange, onChangeText,
@@ -42,7 +42,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
 
     const finalSpanClassName =  `${s.error} ${spanClassName ? spanClassName : ""}`;
-    const finalInputClassName =  `${error ? s.superInput + ' ' + s.errorInput : s.superInput + ' ' + s.rightInput}`; // need to fix with (?:) and s.superInput
+    const finalInputClassName =  `${error ? s.superInput  + ' ' + s.errorInput : s.superInput + ' ' + s.rightInput}`; // need to fix with (?:) and s.superInput
 
     return (
         <div className={s.textInput}>
@@ -50,7 +50,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
                 type={"text"}
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
-                className={finalInputClassName}
+                className={finalInputClassName + ` ${className ? className : ''}`} // теперь работает смешивание классов
                 id={'input1'}
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
