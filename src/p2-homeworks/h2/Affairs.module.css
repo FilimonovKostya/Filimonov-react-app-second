@@ -15,7 +15,7 @@
   cursor: pointer;
 }
 .buttons{
-  margin: auto;
+  margin: 50px auto;
   width: 500px;
   display: flex;
   justify-content: space-around;
