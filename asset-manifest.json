@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Filimonov-react-app-second/static/css/main.e2037209.chunk.css",
+    "main.js": "/Filimonov-react-app-second/static/js/main.8a368f87.chunk.js",
+    "main.js.map": "/Filimonov-react-app-second/static/js/main.8a368f87.chunk.js.map",
+    "runtime-main.js": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js",
+    "runtime-main.js.map": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js.map",
+    "static/js/2.490fbe74.chunk.js": "/Filimonov-react-app-second/static/js/2.490fbe74.chunk.js",
+    "static/js/2.490fbe74.chunk.js.map": "/Filimonov-react-app-second/static/js/2.490fbe74.chunk.js.map",
+    "index.html": "/Filimonov-react-app-second/index.html",
+    "precache-manifest.fc35d53c21083864e098c1eeaab8d2e6.js": "/Filimonov-react-app-second/precache-manifest.fc35d53c21083864e098c1eeaab8d2e6.js",
+    "service-worker.js": "/Filimonov-react-app-second/service-worker.js",
+    "static/css/main.e2037209.chunk.css.map": "/Filimonov-react-app-second/static/css/main.e2037209.chunk.css.map",
+    "static/js/2.490fbe74.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.490fbe74.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b87bd014.js",
+    "static/js/2.490fbe74.chunk.js",
+    "static/css/main.e2037209.chunk.css",
+    "static/js/main.8a368f87.chunk.js"
+  ]
+}
