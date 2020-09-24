@@ -1,3 +1,8 @@
 .App {
+    position: relative;
 background-color: #c6c6c6;
+    height: 100vh;
+}
+.App h1{
+    margin: 0;
 }

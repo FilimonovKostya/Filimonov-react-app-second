@@ -1,0 +1,37 @@
+.components{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 90vh;
+    border-radius: 40px;
+    background-color: #404040;
+    transition: all .1s ease-in-out;
+    transform: translate(-95%, 10px);
+}
+
+.components:hover{
+    transform: translate(0px, 10px);
+
+}
+
+.components a {
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #c15fff;
+    transition: all 0.3s ease-in;
+}
+
+.components a:hover{
+    background-color: #bb83bf;
+    margin: 20px 50px;
+    border-radius: 40px;
+    color: white;
+}
+
+.components .active{
+    color: #ff1e71;
+}

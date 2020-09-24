@@ -19,9 +19,13 @@ export type MessageType = {
 
 export function HW1() {
 
+    const fix = {
+        padding:'10px 0'
+    }
+
     return (
-        <div>
-            <h2>HomeWork 1</h2>
+        <div style={fix}>
+
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
@@ -32,7 +36,7 @@ export function HW1() {
             {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*/!*<AlternativeMessage/>*!/*/}
-            <hr/>
+
         </div>
     );
 }

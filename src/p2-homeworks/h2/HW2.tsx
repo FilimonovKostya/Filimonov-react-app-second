@@ -51,7 +51,7 @@ function HW2() {
     return (
         <div>
 
-            <h2>HomeWork 2</h2>
+
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
