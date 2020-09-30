@@ -9,10 +9,11 @@ function HW6() {
 
     const save = () => {
         saveState<string>("editable-span-value", value);
-    };
+    }; //это записывает в стор
     const restore = () => {
-        restoreState<string>('magic', value)
-    };
+        setValue(restoreState("editable-span-value", value))
+    };//это достаёт из стора,только ты передал не так,ща напишу
+
 
     return (
         <div>
