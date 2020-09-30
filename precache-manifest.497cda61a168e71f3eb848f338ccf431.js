@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcf15181006356a940499d941144e9d7",
+    "revision": "3fdbce2cdc08b1d983ab9ba24b02f5f4",
     "url": "/Filimonov-react-app-second/index.html"
   },
   {
-    "revision": "80f98b5e4b00c028abc2",
-    "url": "/Filimonov-react-app-second/static/css/main.c36bd200.chunk.css"
+    "revision": "f9289d714d1fae3ed3c3",
+    "url": "/Filimonov-react-app-second/static/css/main.ba31bed8.chunk.css"
   },
   {
-    "revision": "79923978f8d3ca238341",
-    "url": "/Filimonov-react-app-second/static/js/2.a1666dc0.chunk.js"
+    "revision": "91790747dad3e89e45e2",
+    "url": "/Filimonov-react-app-second/static/js/2.df0f20b8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Filimonov-react-app-second/static/js/2.a1666dc0.chunk.js.LICENSE.txt"
+    "url": "/Filimonov-react-app-second/static/js/2.df0f20b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80f98b5e4b00c028abc2",
-    "url": "/Filimonov-react-app-second/static/js/main.d2ddd0cb.chunk.js"
+    "revision": "f9289d714d1fae3ed3c3",
+    "url": "/Filimonov-react-app-second/static/js/main.44e50e98.chunk.js"
   },
   {
     "revision": "575d2bb9639603e2e9b1",
