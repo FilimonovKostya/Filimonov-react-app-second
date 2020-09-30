@@ -13,7 +13,8 @@
   height: 50px;
   border-radius: 50px;
   position: absolute;
-  transform: translate(-120%, 95%);
+  top: 60px;
+  left: -60px;
   border: 2px solid black;
 }
 

@@ -1,0 +1,16 @@
+.hw6style{
+    display: flex;
+    justify-content: center;
+}
+
+.spanStyle{
+    color: blue;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spanStyle:hover{
+    color: white;
+    font-size: 20px;
+}
