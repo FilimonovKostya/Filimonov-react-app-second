@@ -21,6 +21,7 @@ function HW4() {
     return (
         <div>
 
+            <hr/>
 
             <div className={s.column}>
                 {/*should work (должно работать)*/}

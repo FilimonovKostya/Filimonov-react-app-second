@@ -51,7 +51,7 @@ function HW2() {
     return (
         <div>
 
-
+        <hr/>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
