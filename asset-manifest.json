@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Filimonov-react-app-second/static/css/main.ba31bed8.chunk.css",
-    "main.js": "/Filimonov-react-app-second/static/js/main.ef189971.chunk.js",
-    "main.js.map": "/Filimonov-react-app-second/static/js/main.ef189971.chunk.js.map",
+    "main.css": "/Filimonov-react-app-second/static/css/main.ac8e1608.chunk.css",
+    "main.js": "/Filimonov-react-app-second/static/js/main.ac4af84d.chunk.js",
+    "main.js.map": "/Filimonov-react-app-second/static/js/main.ac4af84d.chunk.js.map",
     "runtime-main.js": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js",
     "runtime-main.js.map": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js.map",
-    "static/js/2.df0f20b8.chunk.js": "/Filimonov-react-app-second/static/js/2.df0f20b8.chunk.js",
-    "static/js/2.df0f20b8.chunk.js.map": "/Filimonov-react-app-second/static/js/2.df0f20b8.chunk.js.map",
+    "static/js/2.216fa1b9.chunk.js": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js",
+    "static/js/2.216fa1b9.chunk.js.map": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js.map",
     "index.html": "/Filimonov-react-app-second/index.html",
-    "precache-manifest.870ab9452a9c80d7aac4b28adf763c0d.js": "/Filimonov-react-app-second/precache-manifest.870ab9452a9c80d7aac4b28adf763c0d.js",
+    "precache-manifest.3e132423c6b6999fe70f9d3f42bb8e24.js": "/Filimonov-react-app-second/precache-manifest.3e132423c6b6999fe70f9d3f42bb8e24.js",
     "service-worker.js": "/Filimonov-react-app-second/service-worker.js",
-    "static/css/main.ba31bed8.chunk.css.map": "/Filimonov-react-app-second/static/css/main.ba31bed8.chunk.css.map",
-    "static/js/2.df0f20b8.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.df0f20b8.chunk.js.LICENSE.txt",
+    "static/css/main.ac8e1608.chunk.css.map": "/Filimonov-react-app-second/static/css/main.ac8e1608.chunk.css.map",
+    "static/js/2.216fa1b9.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js.LICENSE.txt",
     "static/media/Error404.module.css": "/Filimonov-react-app-second/static/media/preview.5566ee4d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b87bd014.js",
-    "static/js/2.df0f20b8.chunk.js",
-    "static/css/main.ba31bed8.chunk.css",
-    "static/js/main.ef189971.chunk.js"
+    "static/js/2.216fa1b9.chunk.js",
+    "static/css/main.ac8e1608.chunk.css",
+    "static/js/main.ac4af84d.chunk.js"
   ]
 }
