@@ -1,9 +1,11 @@
 import React, {ChangeEvent, DetailedHTMLProps, InputHTMLAttributes} from "react";
+import {Radio} from "@material-ui/core";
+
 
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
 type SuperRadioPropsType = DefaultRadioPropsType & {
-    options?: ['x','y','z']
+    options?: any[]
     onChangeOption?: (option: any) => void
 }
 
@@ -16,31 +18,31 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 ) => {
 
-const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-    // onChange, onChangeOption
-    onChangeOption && onChangeOption(e.currentTarget.value)
-}
+    const onChangeCallback = (event: ChangeEvent<HTMLInputElement>) => {
+        // onChange, onChangeOption
+        onChangeOption && onChangeOption(event.currentTarget.value)
+    }
 
-    const mappedOptions: any[] = options ? options?.map((o, i) => ( // map options with key
-        <label key={name + "-" + i}>
-            <input
-                type={"radio"}
-                name={name}
-                checked={o === value}
-                onChange={onChangeCallback}
-                value={o}
-                // name, checked, value, onChange
-            />
-            {o}
-        </label>
-    )) : [];
-debugger
-    return (
+    const mappedOptions: any[] = options ? options?.map((o, i) => { // map options with key
+        return (
+            (
+                <label key={name + "-" + i}>
+                    <Radio
+                        checked={o === value}
+                        onChange={onChangeCallback}
+                        value={o}
+                        name={name}
+                    />
+                    {o}
+                </label>
+            )
+        )
+    }) : [];
 
-        <>
-            {mappedOptions}
-        </>
-    );
+    return <>
+        {mappedOptions}
+    </>
+
 }
 
 export default SuperRadio;
