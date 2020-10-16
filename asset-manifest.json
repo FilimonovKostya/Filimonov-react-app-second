@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Filimonov-react-app-second/static/css/main.9d6bc906.chunk.css",
-    "main.js": "/Filimonov-react-app-second/static/js/main.d2fe71fc.chunk.js",
-    "main.js.map": "/Filimonov-react-app-second/static/js/main.d2fe71fc.chunk.js.map",
+    "main.js": "/Filimonov-react-app-second/static/js/main.5121a446.chunk.js",
+    "main.js.map": "/Filimonov-react-app-second/static/js/main.5121a446.chunk.js.map",
     "runtime-main.js": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js",
     "runtime-main.js.map": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js.map",
     "static/js/2.216fa1b9.chunk.js": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js",
     "static/js/2.216fa1b9.chunk.js.map": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js.map",
     "index.html": "/Filimonov-react-app-second/index.html",
-    "precache-manifest.0add96b0e1c6b0645824f0d2d18479ac.js": "/Filimonov-react-app-second/precache-manifest.0add96b0e1c6b0645824f0d2d18479ac.js",
+    "precache-manifest.cfb26701fecd4f28afeb8a01c91f6f1e.js": "/Filimonov-react-app-second/precache-manifest.cfb26701fecd4f28afeb8a01c91f6f1e.js",
     "service-worker.js": "/Filimonov-react-app-second/service-worker.js",
     "static/css/main.9d6bc906.chunk.css.map": "/Filimonov-react-app-second/static/css/main.9d6bc906.chunk.css.map",
     "static/js/2.216fa1b9.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.216fa1b9.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b87bd014.js",
     "static/js/2.216fa1b9.chunk.js",
     "static/css/main.9d6bc906.chunk.css",
-    "static/js/main.d2fe71fc.chunk.js"
+    "static/js/main.5121a446.chunk.js"
   ]
 }
