@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Filimonov-react-app-second/precache-manifest.cfb26701fecd4f28afeb8a01c91f6f1e.js"
+  "/Filimonov-react-app-second/precache-manifest.0888baee2e15776e4d02696d567eb5c2.js"
 );
 
 self.addEventListener('message', (event) => {
