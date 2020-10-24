@@ -1,40 +1,43 @@
 import {InitialPeopleType} from "../HW8";
 
-export type ActionsType = ReturnType<typeof sortUp> | ReturnType<typeof sortDown> | ReturnType<typeof sortAge>
+export type ActionsType = ReturnType<typeof sortUpAC> | ReturnType<typeof sortDownAC> | ReturnType<typeof sortAgeAC>
 
- const sortUp = () => {
+export const sortUpAC = () => {
     return {
         type: 'sort',
         payload: 'up'
-    }
+    } as const
 }
 
-const sortDown = () => {
+
+export const sortDownAC = () => {
     return {
         type: 'sortDown',
         payload: 'down'
-    }
+    } as const
 }
 
-const sortAge = () => {
+export const sortAgeAC = () => {
     return {
         type: 'check',
         payload: 18
-    }
+    } as const
 }
 
 export const homeWorkReducer = (state: InitialPeopleType[], action: ActionsType): InitialPeopleType[] => {
     switch (action.type) {
-        case "sort": {
-
-            return [...state.sort((a, b) => a.name.localeCompare(b.name))]
+        case 'sort': {
+            const copyState = [...state]
+            return copyState.sort((a, b) => a.name.localeCompare(b.name))
         }
-        case "sortDown": {
 
-            return [...state.sort((a, b) => b.name.localeCompare(a.name))]
+        case "sortDown": {
+            const copyState = [...state]
+            return copyState.sort((a, b) => b.name.localeCompare(a.name))
         }
         case "check" : {
-           return [...state.filter( f => f.age > 18)]
+            const copyState = [...state]
+            return copyState.filter(f => f.age > 18)
         }
         default:
             return state
