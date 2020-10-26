@@ -46,7 +46,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                   Checkox
+                   checkbox
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}

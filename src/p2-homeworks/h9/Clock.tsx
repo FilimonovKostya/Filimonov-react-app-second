@@ -6,15 +6,17 @@ function Clock() {
     const [date, setDate] = useState<Date>();
     const [show, setShow] = useState<boolean>(false);
 
+    console.log(timerId)
+    console.log(date)
+
     const stop = () => {
-        // stop
+        clearInterval(timerId)
     }
     const start = () => {
         stop();
         const id: number = window.setInterval(() => {
-            debugger
-            let showDate = new Date()
-            setDate(showDate)
+            console.log('значение id -' + id)
+            setDate(new Date())
         }, 1000);
         setTimerId(id);
     }
@@ -23,11 +25,12 @@ function Clock() {
 
 
     const onMouseEnter = () => {
-        // show
+        setShow(true)
     };
     const onMouseLeave = () => {
-        // close
+       setShow(false)
     };
+
 
     const stringTime = "Time"; // fix with date
     const stringDate = "Date"; // fix with date
@@ -40,12 +43,12 @@ function Clock() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
-                {stringTime} {date}
+                {stringTime} : {date?.toLocaleTimeString()}
             </div>
 
             {show && (
                 <div>
-                    {stringDate}
+                    {stringDate} : {date?.toLocaleDateString()}
                 </div>
             )}
 

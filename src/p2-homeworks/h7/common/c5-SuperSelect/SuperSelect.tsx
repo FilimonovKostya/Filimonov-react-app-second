@@ -23,6 +23,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 
     const onChangeCallback = (event: ChangeEvent<{ name?: string | undefined; value: unknown; }>) => {
         // onChange, onChangeOption
+        debugger
         onChangeOption && onChangeOption(event.currentTarget.value)
     }
 
