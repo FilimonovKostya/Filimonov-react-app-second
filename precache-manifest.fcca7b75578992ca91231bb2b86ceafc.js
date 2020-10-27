@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2360c928e5833e96248f597868d8de55",
+    "revision": "e41e4635ee18e172bff75f3fae187bc8",
     "url": "/Filimonov-react-app-second/index.html"
   },
   {
-    "revision": "7ed07cdca651f35e0975",
+    "revision": "915ea294090277a69ad0",
     "url": "/Filimonov-react-app-second/static/css/main.9d6bc906.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Filimonov-react-app-second/static/js/2.16f46af8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ed07cdca651f35e0975",
-    "url": "/Filimonov-react-app-second/static/js/main.c3408efd.chunk.js"
+    "revision": "915ea294090277a69ad0",
+    "url": "/Filimonov-react-app-second/static/js/main.43e0069f.chunk.js"
   },
   {
     "revision": "575d2bb9639603e2e9b1",
