@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Filimonov-react-app-second/static/css/main.9068e733.chunk.css",
-    "main.js": "/Filimonov-react-app-second/static/js/main.e22e67ac.chunk.js",
-    "main.js.map": "/Filimonov-react-app-second/static/js/main.e22e67ac.chunk.js.map",
+    "main.js": "/Filimonov-react-app-second/static/js/main.2ea40584.chunk.js",
+    "main.js.map": "/Filimonov-react-app-second/static/js/main.2ea40584.chunk.js.map",
     "runtime-main.js": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js",
     "runtime-main.js.map": "/Filimonov-react-app-second/static/js/runtime-main.b87bd014.js.map",
-    "static/js/2.e65282e4.chunk.js": "/Filimonov-react-app-second/static/js/2.e65282e4.chunk.js",
-    "static/js/2.e65282e4.chunk.js.map": "/Filimonov-react-app-second/static/js/2.e65282e4.chunk.js.map",
+    "static/js/2.d3a529e7.chunk.js": "/Filimonov-react-app-second/static/js/2.d3a529e7.chunk.js",
+    "static/js/2.d3a529e7.chunk.js.map": "/Filimonov-react-app-second/static/js/2.d3a529e7.chunk.js.map",
     "index.html": "/Filimonov-react-app-second/index.html",
-    "precache-manifest.2f6cea73d5efdb8d7c3bebeb222ec605.js": "/Filimonov-react-app-second/precache-manifest.2f6cea73d5efdb8d7c3bebeb222ec605.js",
+    "precache-manifest.b6d5fac6d31aeb2405cb2639809834a5.js": "/Filimonov-react-app-second/precache-manifest.b6d5fac6d31aeb2405cb2639809834a5.js",
     "service-worker.js": "/Filimonov-react-app-second/service-worker.js",
     "static/css/main.9068e733.chunk.css.map": "/Filimonov-react-app-second/static/css/main.9068e733.chunk.css.map",
-    "static/js/2.e65282e4.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.e65282e4.chunk.js.LICENSE.txt",
+    "static/js/2.d3a529e7.chunk.js.LICENSE.txt": "/Filimonov-react-app-second/static/js/2.d3a529e7.chunk.js.LICENSE.txt",
     "static/media/Error404.module.css": "/Filimonov-react-app-second/static/media/preview.5566ee4d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b87bd014.js",
-    "static/js/2.e65282e4.chunk.js",
+    "static/js/2.d3a529e7.chunk.js",
     "static/css/main.9068e733.chunk.css",
-    "static/js/main.e22e67ac.chunk.js"
+    "static/js/main.2ea40584.chunk.js"
   ]
 }
