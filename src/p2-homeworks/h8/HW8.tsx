@@ -31,7 +31,7 @@ function HW8() {
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, sortUpAC()))
     const sortDown = () => setPeople(homeWorkReducer(initialPeople, sortDownAC()))
-    const sortAge = () => setPeople(homeWorkReducer(initialPeople, sortAgeAC()))
+    const sortAge = () => setPeople(homeWorkReducer(initialPeople, sortAgeAC(44)))
 
 
     return (

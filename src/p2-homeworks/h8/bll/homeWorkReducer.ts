@@ -17,10 +17,10 @@ export const sortDownAC = () => {
     } as const
 }
 
-export const sortAgeAC = () => {
+export const sortAgeAC = (payload:number) => {
     return {
         type: 'check',
-        payload: 18
+        payload: payload
     } as const
 }
 
@@ -37,7 +37,7 @@ export const homeWorkReducer = (state: InitialPeopleType[], action: ActionsType)
         }
         case "check" : {
             const copyState = [...state]
-            return copyState.filter(f => f.age > 18)
+            return copyState.filter(f => f.age > action.payload)
         }
         default:
             return state
