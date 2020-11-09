@@ -1,5 +1,5 @@
 import React from 'react';
-import {homeWorkReducer} from "../homeWorkReducer";
+import {homeWorkReducer, sortDownAC, sortUpAC} from "../homeWorkReducer";
 import {InitialPeopleType} from "../../HW8";
 
 let initialState: InitialPeopleType[];
@@ -16,7 +16,7 @@ beforeEach(() => {
 });
 
 test("sort name up", () => {
-    const newState = homeWorkReducer(initialState, {type: "sort", payload: "up"});
+    const newState = homeWorkReducer(initialState, sortUpAC());
 
     console.log(newState);
 
@@ -35,7 +35,7 @@ test("sort name up", () => {
 
 test("sort name down", () => {
 
-    const newState = homeWorkReducer(initialState, {type: "sort", payload: "down"});
+    const newState = homeWorkReducer(initialState, sortDownAC());
 
     const filterArrayNameDown = initialState.sort((a, b) => b.name.localeCompare(a.name))
 
