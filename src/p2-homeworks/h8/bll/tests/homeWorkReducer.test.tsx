@@ -34,6 +34,7 @@ test("sort name up", () => {
 
 
 test("sort name down", () => {
+
     const newState = homeWorkReducer(initialState, {type: "sort", payload: "down"});
 
     const filterArrayNameDown = initialState.sort((a, b) => b.name.localeCompare(a.name))
