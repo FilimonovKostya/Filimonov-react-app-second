@@ -7,12 +7,12 @@ function HW11() {
     const [value2, setValue2] = useState(100);
 
     const onChangeRange = (value: number | [number, number] ) => {
-
-        // @ts-ignore
-        setValue1(value[0])
-        // @ts-ignore
-        setValue2(value[1])
+        if (Array.isArray(value)) {
+            setValue1(value[0])
+            setValue2(value[1])
+        }
     }
+
 
     return (
         <div>
