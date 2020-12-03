@@ -31,11 +31,11 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 
 
             <FormControl variant="outlined" >
-                <InputLabel htmlFor="outlined-age-native-simple">X Y Z</InputLabel>
+                <InputLabel htmlFor="outlined-age-native-simple">{restProps.title}</InputLabel>
                 <Select
                     native
                     onChange={onChangeCallback}
-                    label="X Y Z"
+
                     value={value}
 
                 >
