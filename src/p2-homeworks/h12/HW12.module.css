@@ -21,3 +21,37 @@
 .some-text {
     color: darkslateblue;
 }
+
+
+.yellow {
+    background: #ffe506;
+}
+
+.yellow-text {
+    color: #000000;
+}
+
+.orange {
+    background: #fd9816;
+}
+
+.orange-text {
+    color: #fcf5fc;
+}
+
+.brown {
+    background: #945442;
+}
+
+.brown-text {
+    color: #a99dfa;
+}
+
+
+.smoke {
+    background: #414141;
+}
+
+.smoke-text {
+    color: #ff135b;
+}
