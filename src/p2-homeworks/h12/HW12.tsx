@@ -9,7 +9,7 @@ const themes = ['dark', 'red', 'some','yellow','orange', 'brown', 'smoke'];
 
 function HW12() {
 
-    const theme = useSelector<AppStoreType, string>(state => state.theme.some)
+    const theme = useSelector<AppStoreType, string>(state => state.theme.color)
     const action = useDispatch()
 
     const onChangeCallback = (color:string) => {

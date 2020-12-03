@@ -1,23 +1,11 @@
 type InitStateType = {
-    dark:string
-    red:string
-    some:string
-    yellow:string
-    orange:string
-    brown:string
-    smoke:string
-
+    color: string,
+    themes: string[]
 }
 
 const initState:InitStateType = {
-    dark:'dark',
-    red:'red',
-    some:'some',
-    yellow: '#ffe506',
-    orange:'#fd9816',
-    brown:'#945442',
-    smoke:'#cdcdcd',
-
+    color:'some',
+    themes: ['dark', 'red', 'some','yellow','orange', 'brown', 'smoke']
 };
 
 export const themeReducer = (state = initState, action: changeThemeActionType): InitStateType => {
@@ -25,14 +13,8 @@ export const themeReducer = (state = initState, action: changeThemeActionType): 
         case "CHANGING-COLOR": {
             return {
                 ...state,
-                dark:action.color,
-                red:action.color,
-                some:action.color,
-                yellow:action.color,
-                orange:action.color,
-                brown:action.color,
-                smoke:action.color,
-            };
+                color: action.color
+            }
         }
         default: return state;
     }
