@@ -18,7 +18,7 @@ const Request = () => {
     const onChangeErrorClick = () => setShowError(!showError)
 
     return <div>
-        <input type="checkbox"/>
+        <input type="checkbox" checked={showError} onChange={onChangeErrorClick}/>
         <button onClick={onChangeErrorClick}>Press me</button>
         <div> Снизу должно что-то быть (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</div>
         <h4>
